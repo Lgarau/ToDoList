@@ -60,7 +60,20 @@ const privateKey = '-----BEGIN RSA PRIVATE KEY-----\n'+
 'eR2VjXzAUVz1bb7mA2qrOyj/stZKePmnrC3I2ixZlck46AL/Ej1STAOr1r4=\n'+
 '-----END RSA PRIVATE KEY-----'
 
-const publicKey = '';
+const publicKey = '-----BEGIN PUBLIC KEY-----\n'+
+'MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAslMKCo7WI1GOceN8TDvo\n'+
+'3Q7ZEzksoKRy3EOdxb+xsCuG+5AV0obM9qdzCTk/O+a1p9FRUueTM3kqz69TniIl\n'+
+'YI+GtsSndnrx3X+hoYRqiKfkmIwOt+V5whopFV33CDeuAe2BDJ8aICwKsDeosbxa\n'+
+'1pFiGc2dPFaGQhzW7uaVQ2IdPecz1KZmew7voyUJCBT1L+9KlICnwH0kylIx65xW\n'+
+'MLgtag3PhTFA535xkpnJIaQHu2DyDNTrCh3mU8VmRkjMJaeUWyaxCHhoXEO1Z0Vt\n'+
+'y949c3V+ZMzVgfPx6lls0Xr14citEjhvE2Mo315PgHRi2fW9g60Y/Sqy3+yrBY79\n'+
+'+OZQJF0JPglJo2UTP9IzM9sX0WHODfVZSz/1kYKz9MBZ/GVYrY5/z5pI6LbuVM8R\n'+
+'DP3cRNGSa2B6KQ/+2wdnf9cEoovJWhHtweccqgjVO8soSK6Ox4xS3s+sBo2MyQYo\n'+
+'8pDY/zdCXxEBvR17Z1U8FjYydf4ECYD/bt2sZrn/C7P9vWUwgqACt6X2W6wIbFbF\n'+
+'zUnIN7gtce889/yAyxGLv3CtUtbykPefGw6SIScRj/CrkFAa+zA1eV4hY+T8PzdH\n'+
+'CF0iH5f5Zyx4dgxVRto8K+J2bZWQhk7NfwUCKwihRo12cD5G6x7QT33Iwh4vCgay\n'+
+'FfMGQMqG29w1swiSrmSZ3oECAwEAAQ==\n'+
+'-----END PUBLIC KEY-----'
 
 export {
   status,

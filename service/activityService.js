@@ -1,7 +1,7 @@
 import activityRepo from '../repository/activityRepository.js'
 
 const retrieveActivity = async (id) => {
-	return await activityRepo.retrieveActivity(id)
+	return await activityRepo.retrieveActivity(id, userId)
 	
   }
 
@@ -17,7 +17,7 @@ const updateActivity = async (id, params) => {
   }
 
 const removeActivity = async (id) => {
-	return activityRepo.removeActivity(id)
+	return activityRepo.removeActivity(id, userId)
   }
 
   
